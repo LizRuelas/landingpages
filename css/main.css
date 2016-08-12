@@ -1,0 +1,91 @@
+/* Tu CSS va aqui */
+*{
+	font-family: 'Open Sans';
+	box-sizing: border-box;
+}
+nav a {
+	text-decoration: none;
+	color: #9396A0;
+	margin-left: 30px;
+}
+nav {
+	float: right;
+	padding: 20px 0px;
+}
+a:hover {
+	color: orange;
+}
+.bg-plomo {
+	background-color: #808080;
+	color: white;
+	padding: 60px 0px;
+}
+h1 {
+	font-size: 450%;
+	
+}
+.pt-5{
+	padding-top:5%;
+}
+.pr-25 {
+	padding-right: 25%;
+}
+.formulario {
+	background-color: #9A9A9A;
+	border-radius: 10px;
+	text-align: center;
+	padding: 35px 10px;
+}
+.btn-suscribe {
+	color: white;
+  text-decoration: none;
+  background-color: #3EB0F7;
+  font-size: 15px;
+  display: block;
+  padding: 4px 0;
+}
+input {
+	padding: 10px 5px;
+  margin: 7px 0px;
+  font-family: arial;
+	display: block;
+	width: 100%;
+}
+.azul {
+	text-decoration: none;
+	color: #5741F1;
+}
+.plomo {
+	color: #9396A0;
+}
+.p-1{
+	padding: 1%;
+}
+/*RESPONSIVE*/
+body {
+	margin: 0px;
+	padding: 0px;
+}
+@media (max-width: 535px) {
+	.col-9{
+		width: 100%;
+	}
+	.col-3 {
+		width: 100%;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	.bg-plomo p {
+		padding-bottom: 30px;
+	}
+	.container {
+		padding: 0 30px;
+	}
+	nav {
+		padding: 0px;
+	}
+	header img {
+		width: 200px;
+	} 
+}
